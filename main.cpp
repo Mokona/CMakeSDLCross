@@ -1,7 +1,7 @@
 // #include <SDL2/SDL.h> // For Methode 1
 #include <SDL.h> // For Method 2
 
-int main()
+int main(int argv, char** args) // This has to be the exact function signature for SDL_Main to find it (on Windows at least)
 {
     SDL_Init(SDL_INIT_VIDEO);
 
