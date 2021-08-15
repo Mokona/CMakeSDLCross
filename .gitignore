@@ -34,3 +34,5 @@
 /build*
 /cmake-build-*
 /.idea
+
+/extern/SDL2-2*

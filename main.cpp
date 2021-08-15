@@ -1,4 +1,5 @@
-#include <SDL2/SDL.h>
+// #include <SDL2/SDL.h> // For Methode 1
+#include <SDL.h> // For Method 2
 
 int main()
 {
