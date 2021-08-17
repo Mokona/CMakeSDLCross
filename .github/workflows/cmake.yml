@@ -18,6 +18,7 @@ jobs:
     
     - name: Gets SDL
       run: |
+        mkdir ${{github.workspace}}/extern/
         cd ${{github.workspace}}/extern/
         git clone https://github.com/libsdl-org/SDL.git
 
